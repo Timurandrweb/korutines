@@ -17,6 +17,8 @@ class MainActivity() : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Timurandrweb
+
         //Dispatchers.Main - главный поток
         //launch(Dispatchers.Main) посылает Runnable в Handler, так что его код выполняется не сразу.
         //launch(Dispatchers.Main, CoroutineStart.UNDISPATCHED) немедленно выполнит свое лямбда-выражение в текущем потоке.
